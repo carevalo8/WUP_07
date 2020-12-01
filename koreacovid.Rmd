@@ -55,6 +55,14 @@ barchartGC(~result + Sex,data=kRdata,type="percent", main ="percent Bar Chart")
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+  
+Looking at the numerical summary, out of the total population of people who are alive, 56% of them are females while 44% of them are males. We can also see that out of the total population of people who are dead, 36% of them are females while 64% of them are males.
+
 
 ## Inferential results 
 
