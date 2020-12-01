@@ -20,7 +20,7 @@ kRdata <- read.csv(file = 'kRdata.csv')
 
 Some of the data was uncoded for sex - sex must be just male or female
 77 of the data entries were coded sex  as blank, so we omit these.
-state of a patient must be died or alive - we adjust that as well   
+state of a patient must be dead or alive - we adjust that as well   
   
 # Question 1 - Is dying independent of sex
 
@@ -74,4 +74,6 @@ The odds of dying if you are a male is 44/1411. The odds of dying if you are a f
 
 
 ## Conclusions
+
+  In conclusion, by looking at the bar chart above we can see that there are more dead males than females.The numerical summary also showed us that out of the population of people who were dead, 64% of them were males while only 36% of them were females. When looking at the Fisher's Exact Test,we can see that the odds ratio of dying is 2.3 to 1 if you are a male. Finally, since the p-value is 9e-04 which is less the 0.05, we reject the null hypothesis and conclude that there is a correlation between sex and dying. 
 
