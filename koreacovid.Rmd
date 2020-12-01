@@ -65,8 +65,12 @@ Looking at the numerical summary, out of the total population of people who are 
 
 
 ## Inferential results 
-
-
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+The odds of dying if you are a male is 44/1411. The odds of dying if you are a female is 25/1831. The odds ratio is (44/1411)/(25/1831). The odds of dying is 2.3 to 1.
 
 
 ## Conclusions
